@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="BaseEnemy.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="MainManager.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="Warrior.cs" t="Include" />
