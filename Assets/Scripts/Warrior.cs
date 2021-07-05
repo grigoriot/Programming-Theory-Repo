@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Warrior : BaseEnemy
 {
     // Start is called before the first frame update
@@ -15,6 +16,7 @@ public class Warrior : BaseEnemy
         Move();
     }
 
+    // POLYMORPHISM
     protected override void Move()
     {
         transform.Translate(Vector3.right * speed * Time.fixedDeltaTime);

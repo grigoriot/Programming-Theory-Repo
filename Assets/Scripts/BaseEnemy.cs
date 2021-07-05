@@ -7,6 +7,7 @@ public class BaseEnemy : MonoBehaviour
 
     protected int speed = 2;
 
+    // ENCAPSULATION
     public int Points
     {
         get => points;
